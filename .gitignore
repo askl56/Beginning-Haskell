@@ -57,21 +57,18 @@ pickle-email-*.html
 # Mac finder artifacts
 .DS_Store
 
-# Netbeans project directory
-/nbproject/
-
-# RubyMine project files
-.idea
-
-# Textmate project files
-/*.tmproj
-
-# vim artifacts
-**.swp
-
-# Environment files that may contain sensitive data
-.env
-.powenv
-
-# Ignore application configuration
-/config/application.yml
+dist
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+*.hp
